@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
@@ -27,21 +26,21 @@ export default function Home() {
         
         {/* Quick Menu Navigation Links */}
         <div className="grid gap-4 sm:grid-cols-2 mb-12">
-          <Link to="/food" className="group relative overflow-hidden rounded-2xl bg-[#2a1418]/80 p-6 border border-[#6b1a2a]/40 hover:border-[#e5c158]/40 transition-all duration-300 flex justify-between items-center shadow-xl">
+          <a href="/food" className="group relative overflow-hidden rounded-2xl bg-[#2a1418]/80 p-6 border border-[#6b1a2a]/40 hover:border-[#e5c158]/40 transition-all duration-300 flex justify-between items-center shadow-xl">
             <div>
               <h3 className="text-lg font-serif text-[#e5c158]">Explore Our Menu</h3>
               <p className="text-xs text-gray-400 mt-1">Gourmet Food & Snacks</p>
             </div>
             <span className="text-[#e5c158] group-hover:translate-x-2 transition-transform duration-300">→</span>
-          </Link>
+          </a>
 
-          <Link to="/drinks" className="group relative overflow-hidden rounded-2xl bg-[#2a1418]/80 p-6 border border-[#6b1a2a]/40 hover:border-[#e5c158]/40 transition-all duration-300 flex justify-between items-center shadow-xl">
+          <a href="/drinks" className="group relative overflow-hidden rounded-2xl bg-[#2a1418]/80 p-6 border border-[#6b1a2a]/40 hover:border-[#e5c158]/40 transition-all duration-300 flex justify-between items-center shadow-xl">
             <div>
               <h3 className="text-lg font-serif text-[#e5c158]">Our Lounge Bar</h3>
               <p className="text-xs text-gray-400 mt-1">Fine Wines, Spirits & Beers</p>
             </div>
             <span className="text-[#e5c158] group-hover:translate-x-2 transition-transform duration-300">→</span>
-          </Link>
+          </a>
         </div>
 
         {/* Highlight Quick Badges */}
@@ -66,9 +65,9 @@ export default function Home() {
           <p className="text-gray-300 text-sm leading-relaxed font-light">
             At 5PM Hotel, every moment is crafted into a memory. We bring together the finest culinary flavors, a warm intimate ambience, and attentive hospitality to ensure your visit becomes a story worth telling.
           </p>
-          <Link to="/visit" className="inline-block mt-6 text-sm font-medium text-[#e5c158] hover:text-white transition-colors duration-200">
+          <a href="/visit" className="inline-block mt-6 text-sm font-medium text-[#e5c158] hover:text-white transition-colors duration-200">
             Find us & Book a table →
-          </Link>
+          </a>
         </div>
 
         {/* Signature Highlights Section */}
