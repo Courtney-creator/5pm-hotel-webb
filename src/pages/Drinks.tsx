@@ -26,7 +26,7 @@ export default function Drinks() {
     {/* Luxury Header Image */}
     <div className="relative w-full h-64 md:h-80 overflow-hidden mb-8">
       <img 
-        src="https://images.unsplash.com/photo-1544025162-d76694265947?w=1200&auto=format&fit=crop&q=80" 
+        src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=1200&auto=format&fit=crop&q=80"
         alt="Luxury Wine Bar" 
         className="w-full h-full object-cover opacity-80"
       />
