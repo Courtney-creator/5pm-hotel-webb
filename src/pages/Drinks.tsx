@@ -16,7 +16,6 @@ export default function Drinks() {
   const [active, setActive] = useState<Category>('whiskey');
 
   return (
-   return (
   <div
     className="relative text-white pb-24"
     style={{
