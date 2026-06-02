@@ -16,13 +16,27 @@ export default function Drinks() {
   const [active, setActive] = useState<Category>('whiskey');
 
   return (
-    <div 
-      className="relative" 
-      style={{ 
-        background: '#FFFFFF', 
-        minHeight: '100vh',
-      }}
-    >
+   return (
+  <div
+    className="relative text-white pb-24"
+    style={{
+      background: '#1a0b0e',
+      minHeight: '100vh',
+    }}
+  >
+    {/* Luxury Header Image */}
+    <div className="relative w-full h-64 md:h-80 overflow-hidden mb-8">
+      <img 
+        src="https://images.unsplash.com/photo-1544025162-d76694265947?w=1200&auto=format&fit=crop&q=80" 
+        alt="Luxury Wine Bar" 
+        className="w-full h-full object-cover opacity-80"
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-[#1a0b0e] via-transparent to-transparent" />
+      <div className="absolute bottom-4 left-6">
+        <h1 className="text-3xl md:text-4xl font-serif text-[#e5c158]">Curated Drinks</h1>
+        <p className="text-sm text-gray-300 mt-1">A story in every sip</p>
+      </div>
+    </div>
       {/* Subtle Background Art Watermark */}
       <div 
         className="fixed inset-0 pointer-events-none z-0"
