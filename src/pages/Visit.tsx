@@ -12,7 +12,7 @@ export default function Visit() {
             <span style={{ fontSize: '24px' }} className="mt-1">📍</span>
             <div className="flex-1">
               <h3 className="font-semibold text-gray-900">Location</h3>
-              <p className="text-sm text-gray-600 mt-1">5PM Hotel, Nirema Drive, Nairobi</p>
+              <p className="text-sm text-gray-600 mt-1">5PM Hotel, Mirema Drive, Nairobi</p>
             </div>
           </div>
 
@@ -28,7 +28,7 @@ export default function Visit() {
             <span style={{ fontSize: '24px' }} className="mt-1">📞</span>
             <div className="flex-1">
               <h3 className="font-semibold text-gray-900">Contact</h3>
-              <p className="text-sm text-gray-600 mt-1">+254 700 000000</p>
+              <p className="text-sm text-gray-600 mt-1">+254 722 867400</p>
             </div>
           </div>
         </div>
